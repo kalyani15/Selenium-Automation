@@ -13,10 +13,10 @@ public class pageObjects {
 		
 	}
 	
-	@FindBy(name = "q")
+	@FindBy(name = "p")
 	public WebElement txtSearch;
 	
-	@FindBy(name = "btnG")
+	@FindBy(id = "UHSearchWeb")
 	public WebElement btnSearch;
 	
 	@FindBy(linkText = "Selenium - Web Browser Automation")
